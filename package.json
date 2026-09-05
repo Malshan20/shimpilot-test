@@ -1,0 +1,16 @@
+{
+  "name": "shimpilot-canary-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node -e 'process.exit(0)'"
+  },
+  "dependencies": {
+    "stripe": "^11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
